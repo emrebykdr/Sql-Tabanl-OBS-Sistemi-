@@ -1,0 +1,6 @@
+﻿DELETE FROM dersprogramlari WHERE id BETWEEN 33 AND 61;
+ALTER TABLE dersProgramlari
+ALTER COLUMN Id INT NOT NULL;
+
+
+
