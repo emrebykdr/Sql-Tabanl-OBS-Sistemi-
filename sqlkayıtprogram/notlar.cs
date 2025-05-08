@@ -39,6 +39,7 @@ namespace sqlkayıtprogram
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
         }
         void NotlariGoster()
         {

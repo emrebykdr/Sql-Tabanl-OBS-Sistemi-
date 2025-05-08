@@ -41,6 +41,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.button4 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -50,20 +51,19 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -202,6 +202,15 @@
             this.groupBox2.Text = "DERS İSTATİSTİK";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(50, 21);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(110, 21);
+            this.comboBox2.TabIndex = 9;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -285,15 +294,6 @@
             this.label4.Text = "Ders Ortalaması:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(50, 21);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(110, 21);
-            this.comboBox2.TabIndex = 9;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
-            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.label14);
@@ -315,76 +315,6 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "ÖĞRENCİ İSTATİSTİK";
             this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 20);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(110, 13);
-            this.label9.TabIndex = 13;
-            this.label9.Text = "Genel Not Ortalaması:";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(6, 44);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(144, 13);
-            this.label10.TabIndex = 14;
-            this.label10.Text = "Başarılı/Başarısız Ders Sayısı:\r\n";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(5, 87);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(182, 13);
-            this.label11.TabIndex = 15;
-            this.label11.Text = "Sorumlu Olduğu Ders Sayısı ve Kredi:\r\n";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(122, 17);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(56, 20);
-            this.textBox1.TabIndex = 9;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(93, 66);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(51, 13);
-            this.label12.TabIndex = 16;
-            this.label12.Text = "Başarısız:";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(6, 65);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(43, 13);
-            this.label13.TabIndex = 13;
-            this.label13.Text = "Başarılı:";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(148, 63);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(40, 20);
-            this.textBox4.TabIndex = 15;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged_1);
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(49, 63);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(40, 20);
-            this.textBox8.TabIndex = 14;
-            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged_1);
             // 
             // label14
             // 
@@ -415,11 +345,81 @@
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(47, 105);
+            this.textBox10.Location = new System.Drawing.Point(59, 105);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(40, 20);
+            this.textBox10.Size = new System.Drawing.Size(30, 20);
             this.textBox10.TabIndex = 18;
             this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(93, 66);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(51, 13);
+            this.label12.TabIndex = 16;
+            this.label12.Text = "Başarısız:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(122, 17);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(56, 20);
+            this.textBox1.TabIndex = 9;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(6, 65);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(43, 13);
+            this.label13.TabIndex = 13;
+            this.label13.Text = "Başarılı:";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(5, 87);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(182, 13);
+            this.label11.TabIndex = 15;
+            this.label11.Text = "Sorumlu Olduğu Ders Sayısı ve Kredi:\r\n";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(148, 63);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(40, 20);
+            this.textBox4.TabIndex = 15;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged_1);
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(49, 63);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(40, 20);
+            this.textBox8.TabIndex = 14;
+            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged_1);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(6, 44);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(144, 13);
+            this.label10.TabIndex = 14;
+            this.label10.Text = "Başarılı/Başarısız Ders Sayısı:\r\n";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 20);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(110, 13);
+            this.label9.TabIndex = 13;
+            this.label9.Text = "Genel Not Ortalaması:";
             // 
             // notlar
             // 

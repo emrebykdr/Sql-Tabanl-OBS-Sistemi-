@@ -30,6 +30,7 @@ namespace sqlkayıtprogram
             textBox3.Text = dataGridView1.Rows[SeciliKayit].Cells[3].Value.ToString();
             textBox4.Text = dataGridView1.Rows[SeciliKayit].Cells[4].Value.ToString();
             textBox5.Text = dataGridView1.Rows[SeciliKayit].Cells[5].Value.ToString();
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
 
         void goster()
@@ -46,7 +47,7 @@ namespace sqlkayıtprogram
         private void Kayıtlar_Load(object sender, EventArgs e)
         {
             goster();
-         
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -99,6 +100,41 @@ namespace sqlkayıtprogram
             devamsızlık frm = new devamsızlık(SeciliKayitNo,this);
             frm.Show();
             this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            staj frm =new staj(SeciliKayitNo,this);
+            frm.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            EkleCıkar frm = new EkleCıkar(this);
+            frm.Show();
+            this.Hide();
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SqlConnection baglanti = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\db1.mdf;Integrated Security=True");
+            baglanti.Open();
+            SqlDataAdapter arama = new SqlDataAdapter("select * from kayit where Ad like'" + textBox6.Text + "%' order by Ad", baglanti);
+            DataSet ds = new DataSet();
+            arama.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0];
+            baglanti.Close();
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

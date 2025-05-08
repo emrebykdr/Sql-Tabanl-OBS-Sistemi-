@@ -117,11 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Bilgilendirme
+
+Staj bilgilerinizi sisteme daha güvenli ve erişilebilir bir şekilde yükleyebilmek için lütfen aşağıdaki adımları takip ediniz:
+
+1."Staj Formunu Aç" butonuna tıklayarak staj formunu başlatınız.
+
+2.Form üzerindeki tüm alanları eksiksiz ve doğru şekilde doldurunuz.
+
+3.Gerekli bilgileri girdikten sonra formu kaydediniz.
+
+4.Kaydetme işlemi tamamlandıktan sonra "Staj Formunu Kaydet" butonuna tıklayarak formunuzu sisteme yükleyiniz.
+
+İşlemlerin doğru şekilde yapılması, staj bilgilerinizin sistemde güvenli olarak saklanmasını sağlayacaktır.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="button7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPAAAADwCAYAAAA+VemSAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
-        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACw0AAAsNAe0HwCwAABY9SURBVHhe7d1LjyPndQZgYzBo
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAABY9SURBVHhe7d1LjyPndQZgYzBo
         DISGlvail7IMAZmdAnggJAq8zrB5v1/7OreesRaOABsIEP8HR8FAyyDJMlolMPQTkihCHC8SeOOMPYpG
         QLycxcyocw6Lp1msfptNsi5kHb6LB6w+bH4s1ndeflXd7JnvnJ+fE1FOwSIR5QMsElE+wCIR5QMsElE+
         wCIR5QMsElE+wKIplPdzaXB8dmN48mRnePpkd3jyeE9ubw9PH384OHlckPs6g5OzY/F4cPLoo8DZR8Ow
