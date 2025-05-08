@@ -26,7 +26,7 @@ lum ve Kullanım
 
 1. Bu projeyi klonlayın:
    ```bash
-   git clone https://github.com/emrebykdr/Sql-Tabanl-OBS-Sistemi-
+   https://github.com/emrebykdr/Sql-Tabanl-OBS-Sistemi-
 
 2. Visual Studio ile açın.
 
