@@ -3,15 +3,12 @@
 
 Bu proje, bir okulun öğrenci bilgilerini yönetmek için C# WinForms kullanılarak geliştirilmiş bir masaüstü uygulamasıdır. Uygulama, öğrencilerin kişisel bilgilerini, staj durumlarını, ders programlarını ve devamsızlık bilgilerini yönetmeyi amaçlar.
 
-##  Genel Görünüm
-
-![Uygulama Ekranı](./Ekran görüntüsü 2025-05-08 113542.png)
 
 ##  Özellikler
 
 - Öğrenci bilgilerini (Ad, Soyad, Cinsiyet, Bölüm, Staj Durumu) listeleme
-- Öğrenci kayıt ekleme
-- Staj bilgilerini takip etme
+- Öğrenci kayıt ekleme/silme
+- Staj bilgilerini takip etme/staj raporu kayıtları tutma
 - Devamsızlık ve ders programı görüntüleme
 - Not bilgilerine erişim
 
@@ -19,10 +16,8 @@ Bu proje, bir okulun öğrenci bilgilerini yönetmek için C# WinForms kullanıl
 
 - **C#** - Uygulama dili
 - **WinForms** - Grafik arayüz
-- **SQL Server** - Veritabanı yönetimi (eğer entegreyse)
-- **DataGridView** - Öğrenci listesinin gösterimi
+- **SQL Server** - Veritabanı yönetimi
 
-lum ve Kullanım
 
 1. Bu projeyi klonlayın:
    ```bash
@@ -40,10 +35,8 @@ lum ve Kullanım
 - `staj1.cs` – Staj bilgileri formu
 - `devamsizlik.cs` – Devamsızlık ve ders programı formu
 - `notlar.cs` – Not görüntüleme formu
-- `sql` – (Varsa) Veritabanı bağlantısı ve sorgular
+- `sql` –  Veritabanı bağlantısı ve sorgular
 
-## 📌 Notlar
 
-- Görsel kullanıcı arayüzü, kullanıcı dostu bir deneyim sağlayacak şekilde düzenlenmiştir.
-- Uygulamada form kontrolleri üzerinden manuel veri girişleri ve güncellemeler yapılabilir.
+- Created by emreykdr
 
