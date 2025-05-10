@@ -4,6 +4,12 @@
 Bu proje, bir okulun öğrenci bilgilerini yönetmek için C# WinForms kullanılarak geliştirilmiş bir masaüstü uygulamasıdır. Uygulama, öğrencilerin kişisel bilgilerini, staj durumlarını, ders programlarını ve devamsızlık bilgilerini yönetmeyi amaçlar.
 
 
+## 🖼️ Uygulama Görünümü
+
+![Uygulama Görseli](https://i.hizliresim.com/pmj26jf.png)
+
+
+
 ##  Özellikler
 
 - Öğrenci bilgilerini (Ad, Soyad, Cinsiyet, Bölüm, Staj Durumu) listeleme
