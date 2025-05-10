@@ -6,7 +6,7 @@ Bu proje, bir okulun öğrenci bilgilerini yönetmek için C# WinForms kullanıl
 
 ## 🖼️ Uygulama Görünümü
 
-![Uygulama Görseli](https://i.hizliresim.com/pmj26jf.png)
+[![Image](https://i.hizliresim.com/pmj26jf.png)](https://hizliresim.com/pmj26jf)
 
 
 
